@@ -13,7 +13,7 @@ This project focuses on predicting food delivery times based on historical data 
 ```
 📁 Food-Delivery-Time-Prediction
 ├── food-delivery-time-prediction.ipynb  # Jupyter notebook for analysis and modeling
-├── Food-Delivery-Time-Prediction-Case-Study.csv  # Dataset
+├── dataset.csv  # Dataset
 ├── README.md  # Project documentation
 └── requirements.txt  # Dependencies for the project
 ```
@@ -47,7 +47,7 @@ This project focuses on predicting food delivery times based on historical data 
 2. Open the file `food-delivery-time-prediction.ipynb` and run the cells sequentially.
 
 ## Dataset
-The dataset (`Food-Delivery-Time-Prediction-Case-Study.csv`) contains various features such as:
+The dataset (`dataset.csv`) contains various features such as:
 - **Order ID**: Unique identifier for orders.
 - **Restaurant Details**: Information about the restaurant.
 - **Delivery Distance**: Distance between the restaurant and the delivery location.
