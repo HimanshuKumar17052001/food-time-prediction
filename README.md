@@ -47,12 +47,33 @@ This project focuses on predicting food delivery times based on historical data 
 2. Open the file `food-delivery-time-prediction.ipynb` and run the cells sequentially.
 
 ## Dataset
-The dataset (`dataset.csv`) contains various features such as:
-- **Order ID**: Unique identifier for orders.
-- **Restaurant Details**: Information about the restaurant.
-- **Delivery Distance**: Distance between the restaurant and the delivery location.
-- **Weather Conditions**: Data about weather conditions during the delivery.
-- **Delivery Time**: Target variable (time taken to deliver).
+The dataset (`dataset.csv`) includes detailed information about food delivery orders and their associated attributes:
+
+### Order Details
+- **ID**: Unique identifier for each order.
+- **Type_of_order**: The category of the order (e.g., meal, beverage, dessert).
+
+### Delivery Personnel Information
+- **Delivery_person_ID**: Unique identifier for the delivery personnel.
+- **Delivery_person_Age**: Age of the delivery personnel.
+- **Delivery_person_Ratings**: Customer ratings of the delivery personnel.
+
+### Location Information
+- **Restaurant_latitude**, **Restaurant_longitude**: Geographical coordinates of the restaurant.
+- **Delivery_location_latitude**, **Delivery_location_longitude**: Geographical coordinates of the delivery location.
+- **Delivery Distance**: The distance between the restaurant and the delivery location.
+
+### Delivery Vehicle Details
+- **Type_of_vehicle**: The type of vehicle used for the delivery.
+
+### Environmental Factors
+- **Weather Conditions**: Weather details during delivery (not directly listed but relevant to time taken).
+
+### Target Variable
+- **Time_taken(min)**: The delivery time in minutes, which is the target variable.
+
+This dataset is useful for analyzing factors affecting delivery time and optimizing delivery operations.
+
 
 ## Model Building
 1. Preprocessing: Handling missing values, feature scaling, and encoding categorical data.
